@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logoheader img{
+    width: 316px;
+    height: 104px; 
+    margin-left: 10px;
+}
+ .listaheader a{
+    text-decoration: none;
+    color: #0a2351;
+    font-family: glacial indifferent bold;
+    font-size: 24px;
+ }
+ .listaheader li {
+     padding: 10px 30px;
+    list-style: none;
+ }
+ .listaheader ul{
+     display: flex;
+     justify-content: center;
+    padding: 30px;
+ }
+ @font-face {
+     font-family: glacial indifferent bold;
+     src: url(../font/GlacialIndifference-Bold.otf);
+ }
+#principal{
+    background-color: blue ;
+    background-size: 100%;
+   background-image: url("../img/fundo\ desfocado.png")
+}
+.devsfooter img{
+width: 150px;
+height: 60px;
+
+}
