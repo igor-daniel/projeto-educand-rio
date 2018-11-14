@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+
+}
+a {
+    text-decoration: none;
+}
+.active{
+    background-color: #b69220;
+}
+header li:hover{
+    background-color: #b69220;
+    transition: 2s;
+}
+.logoheader img{
+    width: 316px;
+    height: 104px; 
+    margin-left: 10px;
+}
+ .listaheader a{
+    text-decoration: none;
+    color: #0a2351;
+    font-family: glacial indifferent bold;
+    font-size: 24px;
+ }
+ .listaheader li {
+     padding: 10px 30px;
+    list-style: none;
+    transition: 3s;
+ }
+ .listaheader ul{
+     display: flex;
+     justify-content: center;
+    padding: 30px;
+ }
+ @font-face {
+     font-family: glacial indifferent bold;
+     src: url(../font/GlacialIndifference-Bold.otf);
+ }
+#principal{
+    background-color: blue ;
+    background-size: 100%;
+   background-image: url("../img/fundo\ desfocado.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+
+}
+.imgcentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+   
+}
+.devsfooter {
+width: 150px;
+height: 60px;
+
+
+}
+footer{
+    background-color: #b69220;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;      
+}
+.listafooter li{
+    list-style: none;
+    text-decoration: none;
+    color: #0a2351;
+    font-family: glacial indifferent bold;
+    font-size: 18px;
+    margin-left: 25px;
+    padding: 3px;
+}
+.logoscentrofooter img{
+    padding: 20px
+}
+.redesfooter{
+    display: flex;
+    align-items: center;
+}
+.redesfooter img{
+    padding: 8px;
+    
+}
+.face{
+    width: 43px;
+}
+.insta{
+    width: 43px;
+}
+.twi{
+    width: 43px;
+}
+.quemsosmos{
+    display: flex;
+    justify-content: space-around;
+}
+.quemimg{
+    padding: 80px;
+}
+.quemflex{
+    display: flex;
+    flex-direction: column;
+}
+.quemflex img{
+    padding: 10px;
+}
