@@ -1,7 +1,6 @@
 *{
     margin: 0%;
     padding: 0%;
-<<<<<<< HEAD
     
 }
 h2{
@@ -10,15 +9,12 @@ h2{
    color: white;
    font-size: 40px;
    padding: 30px;
-=======
->>>>>>> cb4ab93fd326e751f4731db1d5b1d71ad48bec6a
 }
 header{
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-<<<<<<< HEAD
     height: 100px;
 
 } 
@@ -52,9 +48,6 @@ a {
 header li:hover{
     background-color: #b69220;
     transition: 2s;
-=======
-
->>>>>>> cb4ab93fd326e751f4731db1d5b1d71ad48bec6a
 }
 .logoheader img{
     width: 316px;
@@ -66,7 +59,6 @@ header li:hover{
     color: #0a2351;
     font-family: glacial indifferent bold;
     font-size: 24px;
-<<<<<<< HEAD
     padding: 35px 25px;
  }
  .listaheader li {
@@ -80,23 +72,11 @@ header li:hover{
      display: flex;
      justify-content: center;
      margin-top: 4x;
-=======
- }
- .listaheader li {
-     padding: 10px 30px;
-    list-style: none;
- }
- .listaheader ul{
-     display: flex;
-     justify-content: center;
-    padding: 30px;
->>>>>>> cb4ab93fd326e751f4731db1d5b1d71ad48bec6a
  }
  @font-face {
      font-family: glacial indifferent bold;
      src: url(../font/GlacialIndifference-Bold.otf);
  }
-<<<<<<< HEAD
  @font-face {
      font-family: comfortaa Regular;
      src: url(../font/Comfortaa-Regular.ttf);
@@ -117,7 +97,7 @@ header li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 45px;
+    padding:45px;
    
 }
 .formulario label{
@@ -162,19 +142,12 @@ footer{
 .redesfooter{
     display: flex;
     align-items: center;
+    margin-right:17px;
 }
 .redesfooter img{
     padding: 8px;
+    width:43px;
     
-}
-.face{
-    width: 43px;
-}
-.insta{
-    width: 43px;
-}
-.twi{
-    width: 43px;
 }
 .quemsosmos{
     display: flex;
@@ -192,85 +165,6 @@ footer{
     padding: 10px;
 }
 @media only screen and (max-width: 700px) {
-    ul{
-        font-family: glacial indifferent bold;
-        position:absolute;
-        top: 50%;
-        left:50%;
-        transform:translate(-50%,-50%);
-        list-style: none;
-        opacity:0;
-        transition: .25s .10s cubic-bezier(0.06,1.04,0.07,1.01);
-    }
-    a {
-        display: block;
-        margin-bottom: 35px;
-        text-decoration: none;
-        color: #fff;
-        font-size: 24px;
-    }
-    .menu {
-        width: 42px;
-        height: 42px;
-        background-color: #b6922e;
-        border-radius: 50%;
-        position:fixed;
-        top: 25px;
-        right: 25px;
-        cursor: pointer;
-        box-shadow: 0 0 0 0px #b6922e, 0 0 0 0px #b6922e;
-        transition:box-shadow 1.1s cubic-bezier(.19,1,.22,1);
-    }
-    .menu:hover{
-        box-shadow: 0 0 0 8px #b6922e, 0 0 0 8px #b6922e;
-    }
-    .hamburguer {
-        position: relative;
-        display: block;
-        background: #fff;
-        width: 24px;
-        height: 2px;
-        top:20px;
-        left: 9px;
-        transition:.5s ease-in-out;
-    }
-    .hamburguer:before,
-    .hamburguer:after {
-        background: #fff;
-        content: '';
-        display: block;
-        width: 100%;
-        height: 100%;
-        position:absolute;
-        transition:.5s ease-in-out;
-    }
-    .hamburguer:before {
-    top: -10px;
-    }
-    .hamburguer:after {
-        bottom:-10px;
-    }
-    input{
-        display: none;
-    }
-    input:checked~ul {
-        opacity:1;
-    }
-    input:checked~label .menu {
-        box-shadow: 0 0 0 1000vw #0a2351, 0 0 0 1000vw #0a2351;
-    }
-    input:checked~label .hamburguer {
-    transform: rotate(45deg);
-    }
-    input:checked~label .hamburguer:before {
-    transform:rotate(90deg);
-    top:0px;
-    }
-    input:checked~label .hamburguer:after {
-    transform:rotate(90deg);
-    bottom:0px;
-    }
-    /*fim do botão*/
     footer{
         display: flex;
         flex-direction: column;
@@ -287,26 +181,32 @@ footer{
         margin-left: 24px;
         margin-right: 24px;
     }
-    
+    .listafooter {
+        display:none;
+    }
+    .listabotao {
+        display:none;
+    }
+    .imgcentro img{
+    width:300px;
+    }
+    .logoheader img{
+        width: 236px;
+        height: 84px; 
+        margin-left: 5px;
+        padding-top:10px;
+    }
+    .listaheader {
+        display:none;
+    }
 }
 
 @media only screen and (min-width: 700px) {
  .botao{
      display: none;
  }
-}
-
-
-
-=======
-#principal{
-    background-color: blue ;
-    background-size: 100%;
-   background-image: url("../img/fundo\ desfocado.png")
-}
-.devsfooter img{
-width: 150px;
-height: 60px;
 
 }
->>>>>>> cb4ab93fd326e751f4731db1d5b1d71ad48bec6a
+
+
+
