@@ -199,6 +199,17 @@ footer{
     .listaheader {
         display:none;
     }
+    .txtensino{
+        width:270px;
+        height:130px;
+        font-size:14px;
+        padding:10px;
+    }
+    .ensinoimg img{
+        width:270px;
+        height:270px;
+    }
+
 }
 
 @media only screen and (min-width: 700px) {
