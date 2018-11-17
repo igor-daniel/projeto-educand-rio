@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+<<<<<<< HEAD
     
 }
 h2{
@@ -9,12 +10,15 @@ h2{
    color: white;
    font-size: 40px;
    padding: 30px;
+=======
+>>>>>>> cb4ab93fd326e751f4731db1d5b1d71ad48bec6a
 }
 header{
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+<<<<<<< HEAD
     height: 100px;
 
 } 
@@ -48,6 +52,9 @@ a {
 header li:hover{
     background-color: #b69220;
     transition: 2s;
+=======
+
+>>>>>>> cb4ab93fd326e751f4731db1d5b1d71ad48bec6a
 }
 .logoheader img{
     width: 316px;
@@ -59,6 +66,7 @@ header li:hover{
     color: #0a2351;
     font-family: glacial indifferent bold;
     font-size: 24px;
+<<<<<<< HEAD
     padding: 35px 25px;
  }
  .listaheader li {
@@ -72,11 +80,23 @@ header li:hover{
      display: flex;
      justify-content: center;
      margin-top: 4x;
+=======
+ }
+ .listaheader li {
+     padding: 10px 30px;
+    list-style: none;
+ }
+ .listaheader ul{
+     display: flex;
+     justify-content: center;
+    padding: 30px;
+>>>>>>> cb4ab93fd326e751f4731db1d5b1d71ad48bec6a
  }
  @font-face {
      font-family: glacial indifferent bold;
      src: url(../font/GlacialIndifference-Bold.otf);
  }
+<<<<<<< HEAD
  @font-face {
      font-family: comfortaa Regular;
      src: url(../font/Comfortaa-Regular.ttf);
@@ -278,3 +298,15 @@ footer{
 
 
 
+=======
+#principal{
+    background-color: blue ;
+    background-size: 100%;
+   background-image: url("../img/fundo\ desfocado.png")
+}
+.devsfooter img{
+width: 150px;
+height: 60px;
+
+}
+>>>>>>> cb4ab93fd326e751f4731db1d5b1d71ad48bec6a
